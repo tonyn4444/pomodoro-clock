@@ -2,3 +2,49 @@ body {
 	font-family: Raleway;
 	background-color: lightgrey;
 }
+
+#main-container {
+	border: 2px solid red;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	color: black;
+	margin-top: 15%;
+}
+
+#content-container {
+	border: 2px solid blue;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#settings {
+	border: 2px solid green;
+	height: 25px;
+	padding: 10px;
+}
+
+#break-settings {
+	float: left;
+	/*margin-left: 200px;*/
+	text-align: center;
+}
+
+#work-settings {
+	/*margin-right: 20px;*/
+	float: right;
+}
+
+span {
+	border: 2px solid black;
+	/*margin: 5px;*/
+	padding: 5px;
+}
+
+#decrease-break {
+ /*font-size: 1.5em;*/
+}
+
+#increase-break {
+	/*font-size: 1.5em;*/
+}
